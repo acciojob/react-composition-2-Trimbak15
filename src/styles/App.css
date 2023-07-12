@@ -1,1 +1,28 @@
 
+.model-overlay{
+    background-color: #a6c6f1;
+    border: 3px solid black;
+    padding: 1rem;
+    width: 40%;
+    border-radius: 5px;
+}
+
+.model-show > button{
+    background-color: rgb(235, 85, 85);
+    color:white;
+    border-radius: 5px;
+    border:none;
+    padding: 15px;
+}
+
+.model-show{
+    padding-bottom: 1rem;
+}
+
+.model-close{
+    background-color: rgb(235, 85, 85);
+    color:white;
+    border-radius: 5px;
+    border:none;
+    padding: 10px;
+}
