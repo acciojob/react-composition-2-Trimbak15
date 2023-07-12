@@ -9,7 +9,7 @@ const App = () => {
     const handleChange = () => {
         setShowModal(false);
     }
-    console.log("hello")
+   
 
     return(
         <div>

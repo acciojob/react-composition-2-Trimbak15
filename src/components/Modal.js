@@ -5,12 +5,16 @@ const Modal = ({show, onClose, children}) => {
         return null;
     }
 
+    const handleChange = () => {
+        onClose();
+    }
+
     return(
         <div className="modal">
-            <div className="model-overlay">
+            <div className="model-overlay" onClick={handleChange}>
 
             <button className="model-close" onClick={onClose}>Close</button>
-            
+
                 {children}
                 
             </div>
