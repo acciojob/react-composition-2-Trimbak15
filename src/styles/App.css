@@ -1,5 +1,5 @@
 
-.model-overlay{
+.modal-overlay{
     background-color: #a6c6f1;
     border: 3px solid black;
     padding: 1rem;
@@ -19,7 +19,7 @@
     padding-bottom: 1rem;
 }
 
-.model-close{
+.modal-close{
     background-color: rgb(235, 85, 85);
     color:white;
     border-radius: 5px;
